@@ -21,7 +21,7 @@
 #include "buffer.h"
 #include "unpacker_ext_registry.h"
 
-#define MSGPACK_UNPACKER_STACK_CAPACITY 4096
+#define MSGPACK_UNPACKER_STACK_CAPACITY 128
 
 struct msgpack_unpacker_t;
 typedef struct msgpack_unpacker_t msgpack_unpacker_t;
